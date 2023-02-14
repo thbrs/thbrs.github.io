@@ -1,0 +1,44 @@
+dropdown
+{
+    display:block;
+    position:relative;
+}
+dropdown show
+{
+    background-color:#282828;
+    display:none;
+    position:absolute;
+}
+dropdown:hover show
+{
+    display:block;
+    width:100%;
+}
+dropdown > show > item
+{
+    background-color:#282828;
+    display:block;
+    width:100%;
+}
+dropdown > show > item:hover
+{
+    background-color:#F3F1E4;
+}
+out
+{
+    background-color:#282828;
+    border-radius:5px;
+    border-style:outset;
+    border-width:1px;
+    box-shadow:0px 0px 10px black;
+    display:block;
+}
+in
+{
+    background-color:#F3F1E4;
+    border-radius:5px;
+    border-style:inset;
+    border-width:1px;
+    box-shadow:0px 0px 10px black inset;
+    display:block;
+}
